@@ -8,3 +8,5 @@ xgboost
 statsmodels
 imbalanced-learn
 dotenv
+pyyaml
+-e .
