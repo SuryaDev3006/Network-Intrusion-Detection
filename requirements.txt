@@ -9,4 +9,8 @@ statsmodels
 imbalanced-learn
 dotenv
 pyyaml
--e .
+fastapi
+uvicorn
+requests
+jinja2
+python-multipart

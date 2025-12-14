@@ -1,0 +1,47 @@
+===============
+Loading Dataset
+===============
+
+Dataset loaded with shape: (11055, 31)
+
+==================
+PREPROCESSING DATA
+==================
+
+Scaler saved → artifacts/scaler.pkl
+
+===========================
+Training XGBoost Classifier
+===========================
+
+Accuracy: 0.9706015377657169
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.98      0.96      0.97       980
+           1       0.97      0.98      0.97      1231
+
+    accuracy                           0.97      2211
+   macro avg       0.97      0.97      0.97      2211
+weighted avg       0.97      0.97      0.97      2211
+
+
+==============================================
+XGBoost model saved at artifacts/xgb_model.pkl
+==============================================
+
+
+==========================
+TRAINING ANN MLPClassifier
+==========================
+
+ANN Accuracy: 0.966078697421981
+Report:
+               precision    recall  f1-score   support
+
+           0       0.98      0.94      0.96       980
+           1       0.95      0.99      0.97      1231
+
+    accuracy                           0.97      2211
+   macro avg       0.97      0.96      0.97      2211
+weighted avg       0.97      0.97      0.97      2211
